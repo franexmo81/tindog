@@ -1,5 +1,3 @@
-
-
 body {
   font-family: 'Montserrat-Black', sans-serif;
 }
@@ -18,7 +16,6 @@ h2 {
   line-height: 1.5;
 }
 
-
 h3 {
   font-family: 'Montserrat-Black', sans-serif;
   font-weight: 900;
@@ -27,7 +24,7 @@ h3 {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 #title {
@@ -64,13 +61,16 @@ h3 {
 .title-image {
   width: 60%;
   transform: rotate(25deg);
-  margin: 60px auto auto 100px;
+  position: absolute;
+  right: 30%;
 }
 
 /* Features section */
-
-#features{
+#features {
   padding: 7% 15%;
+  position: relative;
+  background-color: white;
+  z-index: 1;
 }
 
 .col-features {
@@ -93,30 +93,57 @@ h3 {
 }
 
 /* Testimonials */
-
-#testimonials{
+#testimonials {
   text-align: center;
   background-color: #ef8172;
   color: white;
 }
 
-.testimonial-image{
+.testimonial-image {
   width: 10%;
   border-radius: 50%;
   margin: 20px;
 }
 
-.carousel-item{
+.carousel-item {
   padding: 7% 15%;
 }
 
-#press{
+#press {
   background-color: #ef8172;
   text-align: center;
   padding-bottom: 3%;
 }
 
-.press-logo{
+.press-logo {
   width: 15%;
   margin: 20px 20px 50px;
+}
+
+/* Pricing */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+
+/* Media breakpoints */
+
+
+@media (max-width: 991px) {
+  .title-image {
+    transform: rotate(0);
+    position: static;
+  }
+
+  #title {
+    text-align: center;
+  }
+
+
+
 }
