@@ -1,36 +1,32 @@
 body {
   font-family: 'Montserrat-Black', sans-serif;
+  text-align: center;
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat-Black', sans-serif;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Headings */
+
+.big-heading{
   font-weight: 900;
   font-size: 3.5rem;
   line-height: 1.5;
 }
 
-h2 {
-  font-family: 'Montserrat-Black', sans-serif;
+.section-heading {
   font-weight: 600;
   font-size: 3rem;
   line-height: 1.5;
 }
 
-h3 {
-  font-family: 'Montserrat-Black', sans-serif;
-  font-weight: 900;
-  font-size: 1.5rem;
-  line-height: 1.5;
-}
-
-.container-fluid {
-  padding: 3% 15% 7%;
-}
-
-#title {
-  background-color: #ff4c68;
-  color: white;
-}
 
 /* Navigation bar */
 .navbar {
@@ -52,6 +48,19 @@ h3 {
   font-weight: 100;
 }
 
+
+/* Title section */
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
 /* Download buttons */
 .download-button {
   margin: 5% 3% 5% 0;
@@ -67,25 +76,29 @@ h3 {
 
 /* Features section */
 #features {
-  padding: 7% 15%;
   position: relative;
   background-color: white;
   z-index: 1;
 }
 
 .col-features {
-  text-align: center;
   margin: 50px auto;
   padding: 5%;
 }
 
-.features-icon {
+.feature-icon {
   color: #ef8172;
   font-size: 5rem;
 }
 
-:hover.features-icon {
+:hover.feature-icon {
   color: #ff4c88;
+}
+
+.feature-title {
+  font-weight: 900;
+  font-size: 1.5rem;
+  line-height: 1.5;
 }
 
 .features-comment {
@@ -94,7 +107,6 @@ h3 {
 
 /* Testimonials */
 #testimonials {
-  text-align: center;
   background-color: #ef8172;
   color: white;
 }
@@ -105,13 +117,14 @@ h3 {
   margin: 20px;
 }
 
-.carousel-item {
-  padding: 7% 15%;
+.testimonial-text{
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 #press {
   background-color: #ef8172;
-  text-align: center;
   padding-bottom: 3%;
 }
 
@@ -123,16 +136,47 @@ h3 {
 /* Pricing */
 #pricing {
   padding: 100px;
-  text-align: center;
+}
+
+.price-title{
+  font-weight: 900;
+  font-size: 1.5rem;
+  line-height: 1.5;
 }
 
 .pricing-col {
   padding: 3% 2%;
 }
 
+.price-text{
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Call to action */
+
+#cta{
+  background-color: #ff4c68;
+  color: white;
+}
+
+
+/* Footer */
+#footer{
+  background-color: #fff;
+}
+
+.icon{
+  padding: 12px 6px;
+}
+
+.Copyright{
+  padding: 12px 6px;
+}
+
 
 /* Media breakpoints */
-
 
 @media (max-width: 991px) {
   .title-image {
@@ -140,10 +184,8 @@ h3 {
     position: static;
   }
 
-  #title {
+  #title{
     text-align: center;
   }
-
-
 
 }
