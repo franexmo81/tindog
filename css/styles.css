@@ -7,11 +7,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat-Black', sans-serif;
 }
 
-/* Containers */
-
-.container-fluid {
-  padding: 7% 15%;
+p {
+  color: #8f8f8f;
 }
+
 
 /* Headings */
 
@@ -26,6 +25,27 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 3rem;
   line-height: 1.5;
 }
+
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+
+/* Sections */
+
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+}
+
+
 
 
 /* Navigation bar */
@@ -52,8 +72,6 @@ h1, h2, h3, h4, h5, h6 {
 /* Title section */
 
 #title {
-  background-color: #ff4c68;
-  color: white;
   text-align: left;
 }
 
@@ -61,10 +79,12 @@ h1, h2, h3, h4, h5, h6 {
   padding: 3% 15% 7%;
 }
 
+
 /* Download buttons */
 .download-button {
   margin: 5% 3% 5% 0;
 }
+
 
 /* Title image */
 .title-image {
@@ -74,10 +94,10 @@ h1, h2, h3, h4, h5, h6 {
   right: 30%;
 }
 
+
 /* Features section */
 #features {
   position: relative;
-  background-color: white;
   z-index: 1;
 }
 
@@ -105,10 +125,10 @@ h1, h2, h3, h4, h5, h6 {
   color: #8f8f8f;
 }
 
+
 /* Testimonials */
 #testimonials {
   background-color: #ef8172;
-  color: white;
 }
 
 .testimonial-image {
@@ -133,6 +153,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 20px 20px 50px;
 }
 
+
 /* Pricing */
 #pricing {
   padding: 100px;
@@ -154,18 +175,11 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.5;
 }
 
-/* Call to action */
 
-#cta{
-  background-color: #ff4c68;
-  color: white;
-}
+/* Call to action */
 
 
 /* Footer */
-#footer{
-  background-color: #fff;
-}
 
 .icon{
   padding: 12px 6px;
